@@ -23,13 +23,13 @@ decrementBtn.addEventListener('click', onDecremetn);
 function onIncrement () {
   counterValue += 1;
   valueEl.textContent = counterValue;
-  console.log(valueEl.textContent);
+  // console.log(valueEl.textContent);
 };
 
 function onDecremetn () {
   counterValue -= 1;
   valueEl.textContent = counterValue;
-  console.log(valueEl.textContent);
+  // console.log(valueEl.textContent);
 };
 
 
